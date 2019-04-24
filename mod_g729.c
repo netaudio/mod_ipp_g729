@@ -35,6 +35,7 @@
 #include "switch.h"
 
 SWITCH_MODULE_LOAD_FUNCTION(mod_g729_load);
+SWITCH_MODULE_DEFINITION(mod_ipp_g729, mod_g729_load, NULL, NULL);
 
 #ifndef G729_PASSTHROUGH
 #include "g729.h"
